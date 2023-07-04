@@ -321,7 +321,7 @@ const Sidebar = () => {
         {/* Last Row*/}
         <div className="flex flex-row w-full mt-6 items-center justify-between">
           <div className="flex items-center gap-2 flex-row">
-            <div className="bg-[#4934f5] text-white rounded-md flex w-[2.5rem] h-[2.5rem]">
+            <div className="text-white rounded-md flex w-[2.5rem] h-[2.5rem]">
               <img src={null} className="object-cover object-center"/>
             </div>
             <div>
