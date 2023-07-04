@@ -26,7 +26,30 @@ const Sidebar = () => {
             </svg>
           </div>
         </div>
-        <div></div>
+        <div className="flex flex-row my-2 w-full items-center justify-between">
+          <div className="flex w-full p-1 bg-gray-200 rounded-md items-center flex-row">
+            <svg
+              viewBox="0 0 24 24"
+              className="fill-gray-600"
+              height="1.5em"
+              width="1.5em"
+            >
+              <path d="M10 18a7.952 7.952 0 004.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0018 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z" />
+            </svg>
+            <input type="search" placeholder="Search" className="w-full bg-inherit flex px-2 placeholder-gray-600" />
+            <div className='flex text-gray-600 items-center gap-1 bg-gray-300 rounded-md p-1'>
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1.5em"
+                width="1.5em"
+              >
+                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
