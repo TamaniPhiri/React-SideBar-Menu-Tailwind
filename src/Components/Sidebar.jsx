@@ -318,14 +318,19 @@ const Sidebar = () => {
           </div>
         </div>
 
+        {/* Last Row*/}
         <div className="flex flex-row w-full mt-6 items-center justify-between">
           <div className="flex items-center gap-2 flex-row">
-            <div className="bg-[#4934f5] text-white rounded-md flex">
-              <span className="p-2">WL</span>
+            <div className="bg-[#4934f5] text-white rounded-md flex w-[2.5rem] h-[2.5rem]">
+              <img src={null} className="object-cover object-center"/>
             </div>
             <div>
-              <h1 className="font-bold">widelab</h1>
-              <span className="text-gray-500">Team Plan</span>
+              <h1 className="font-bold">
+                Sandra Marx
+              </h1>
+              <span className="text-gray-500">
+                sandra@gmail.com
+              </span>
             </div>
           </div>
           <div className="flex items-center">
@@ -342,6 +347,7 @@ const Sidebar = () => {
             </svg>
           </div>
         </div>
+
       </div>
     </div>
   );
