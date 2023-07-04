@@ -198,6 +198,46 @@ const Sidebar = () => {
             </span>
           </div>
         </div>
+
+        {/* Row-9 Projects*/}
+        <div className="flex pb-1 flex-row w-full items-center justify-between">
+          <div className="flex w-full p-1 rounded-md items-center flex-row">
+            <span className="w-full text-xs bg-inherit text-gray-600 flex px-2 placeholder-gray-600">
+              Projects
+            </span>
+          </div>
+        </div>
+
+        {/* Row-10 Personal */}
+        <div className="flex flex-row mb-2 w-full items-center justify-between">
+          <div className="flex w-full p-1 rounded-md items-center flex-row">
+            <div className="bg-[#afe9da] h-2 p-2 rounded-md border-green-600 border w-2]"></div>
+            <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
+              Personal
+            </span>
+          </div>
+        </div>
+
+         {/* Row-11 Business */}
+         <div className="flex flex-row mb-2 w-full items-center justify-between">
+          <div className="flex w-full p-1 rounded-md items-center flex-row">
+            <div className="bg-[#afe9da] h-2 p-2 rounded-md border-green-600 border w-2]"></div>
+            <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
+              Business
+            </span>
+          </div>
+        </div>
+
+         {/* Row-12 Travel */}
+         <div className="flex flex-row mb-2 w-full items-center justify-between">
+          <div className="flex w-full p-1 rounded-md items-center flex-row">
+            <div className="bg-[#afe9da] h-2 p-2 rounded-md border-green-600 border w-2]"></div>
+            <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
+              Travel
+            </span>
+          </div>
+        </div>
+
       </div>
     </div>
   );
