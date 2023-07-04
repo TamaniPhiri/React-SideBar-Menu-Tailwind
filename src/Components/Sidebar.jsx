@@ -30,10 +30,10 @@ const Sidebar = () => {
 
         {/* Row 2 Search Component */}
         <div className="flex flex-row my-2 w-full items-center justify-between">
-          <div className="flex w-full p-1 bg-gray-100 rounded-md items-center flex-row">
+          <div className="flex w-full p-1 text-gray-600 bg-gray-100 rounded-md items-center flex-row">
             <svg
               viewBox="0 0 24 24"
-              className="fill-gray-600"
+              className="fill-gray-600 text-gray-600"
               height="1.5em"
               width="1.5em"
             >
@@ -322,18 +322,17 @@ const Sidebar = () => {
         <div className="flex flex-row w-full mt-6 items-center justify-between">
           <div className="flex items-center gap-2 flex-row">
             <div className="text-white rounded-md flex w-[2.5rem] h-[2.5rem]">
-              <img src={null} className="object-cover object-center"/>
+              <img
+                src="https://images.pexels.com/photos/1370750/pexels-photo-1370750.jpeg?auto=compress&cs=tinysrgb&w=600"
+                className="object-cover object-center rounded-md"
+              />
             </div>
             <div>
-              <h1 className="font-bold">
-                Sandra Marx
-              </h1>
-              <span className="text-gray-500">
-                sandra@gmail.com
-              </span>
+              <h1 className="font-bold">Sandra Marx</h1>
+              <span className="text-gray-500">sandra@gmail.com</span>
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="flex text-gray-600 items-center">
             <svg
               fill="currentColor"
               viewBox="0 0 16 16"
@@ -347,7 +346,6 @@ const Sidebar = () => {
             </svg>
           </div>
         </div>
-
       </div>
     </div>
   );
