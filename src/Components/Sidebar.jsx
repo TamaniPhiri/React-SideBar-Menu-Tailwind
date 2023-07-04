@@ -143,7 +143,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        {/* Row-6 */}
+        {/* Row-6 Shared*/}
         <div className="flex flex-row mt-2 w-full items-center justify-between">
           <div className="flex w-full p-1 rounded-md items-center flex-row">
             <span className="w-full text-xs bg-inherit text-gray-600 flex px-2 placeholder-gray-600">
@@ -187,9 +187,9 @@ const Sidebar = () => {
           <div className="flex w-full p-1 rounded-md items-center flex-row">
             <svg fill="none" viewBox="0 0 15 15" height="1.5em" width="1.5em">
               <path
-                fill="currentColor"
+                className="fill-gray-600"
                 fillRule="evenodd"
-                d="M8.697.04a.5.5 0 01.296.542L8.09 6h4.41a.5.5 0 01.4.8l-6 8a.5.5 0 01-.893-.382L6.91 9H2.5a.5.5 0 01-.4-.8l6-8a.5.5 0 01.597-.16zM3.5 8h4a.5.5 0 01.493.582L7.33 12.56 11.5 7h-4a.5.5 0 01-.493-.582L7.67 2.44 3.5 8z"
+                d="M7.754.82a.5.5 0 00-.508 0l-5.5 3.25a.5.5 0 000 .86l5.5 3.25a.5.5 0 00.508 0l5.5-3.25a.5.5 0 000-.86L7.754.82zM7.5 7.17L2.983 4.5 7.5 1.83l4.517 2.67L7.5 7.17zm-5.93.326a.5.5 0 01.684-.176l5.246 3.1 5.246-3.1a.5.5 0 11.508.86l-5.5 3.25a.5.5 0 01-.508 0l-5.5-3.25a.5.5 0 01-.177-.684zm0 3a.5.5 0 01.684-.177l5.246 3.1 5.246-3.1a.5.5 0 01.508.861l-5.5 3.25a.5.5 0 01-.508 0l-5.5-3.25a.5.5 0 01-.177-.684z"
                 clipRule="evenodd"
               />
             </svg>
