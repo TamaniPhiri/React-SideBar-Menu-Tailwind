@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  font-family: "Pathway Extreme", sans-serif;
+  box-sizing: border-box;
+}
