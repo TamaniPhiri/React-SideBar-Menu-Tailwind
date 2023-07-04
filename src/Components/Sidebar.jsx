@@ -113,6 +113,35 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
+
+        {/* Row-4 Activity */}
+        <div className="flex flex-row mb-2 w-full items-center justify-between">
+          <div className="flex w-full p-1 rounded-md items-center flex-row">
+            <svg
+              viewBox="0 0 24 24"
+              className="fill-gray-600"
+              height="1.5em"
+              width="1.5em"
+            >
+              <path d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3zM5 8V5c0-.805.55-.988 1-1h13v12H5V8z" />
+              <path d="M8 6h9v2H8z" />
+            </svg>
+            <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
+              Activity
+            </span>
+            <div className="flex text-gray-600 items-center bg-gray-200 rounded-md p-1">
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1.5em"
+                width="1.5em"
+              >
+                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
+              </svg>
+              <span>3</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
