@@ -2,6 +2,8 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col w-1/3 p-3 m-1 shadow-md rounded-md">
       <div className="flex text-sm flex-col w-full items-center">
+
+        {/* Row-1 wideLab TeamPlan */}
         <div className="flex flex-row w-full items-center justify-between">
           <div className="flex items-center gap-2 flex-row">
             <div className="bg-[#4934f5] text-white rounded-md flex">
@@ -26,8 +28,10 @@ const Sidebar = () => {
             </svg>
           </div>
         </div>
+
+        {/* Row 2 Search Component */}
         <div className="flex flex-row my-2 w-full items-center justify-between">
-          <div className="flex w-full p-1 bg-gray-200 rounded-md items-center flex-row">
+          <div className="flex w-full p-1 bg-gray-100 rounded-md items-center flex-row">
             <svg
               viewBox="0 0 24 24"
               className="fill-gray-600"
@@ -36,8 +40,12 @@ const Sidebar = () => {
             >
               <path d="M10 18a7.952 7.952 0 004.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0018 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z" />
             </svg>
-            <input type="search" placeholder="Search" className="w-full bg-inherit flex px-2 placeholder-gray-600" />
-            <div className='flex text-gray-600 items-center gap-1 bg-gray-300 rounded-md p-1'>
+            <input
+              type="search"
+              placeholder="Search"
+              className="w-full bg-inherit flex px-2 placeholder-gray-600"
+            />
+            <div className="flex text-gray-600 items-center gap-1 bg-gray-200 rounded-md p-1">
               <svg
                 fill="currentColor"
                 viewBox="0 0 16 16"
@@ -47,6 +55,34 @@ const Sidebar = () => {
                 <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
               </svg>
               <span>1</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Row-3 Inbox */}
+        <div className="flex flex-row mb-2 w-full items-center justify-between">
+          <div className="flex w-full p-1 rounded-md items-center flex-row">
+            <svg fill="none" viewBox="0 0 15 15" height="1.5em" width="1.5em">
+              <path
+                fill="currentColor"
+                fillRule="evenodd"
+                d="M7.754.82a.5.5 0 00-.508 0l-5.5 3.25a.5.5 0 000 .86l5.5 3.25a.5.5 0 00.508 0l5.5-3.25a.5.5 0 000-.86L7.754.82zM7.5 7.17L2.983 4.5 7.5 1.83l4.517 2.67L7.5 7.17zm-5.93.326a.5.5 0 01.684-.176l5.246 3.1 5.246-3.1a.5.5 0 11.508.86l-5.5 3.25a.5.5 0 01-.508 0l-5.5-3.25a.5.5 0 01-.177-.684zm0 3a.5.5 0 01.684-.177l5.246 3.1 5.246-3.1a.5.5 0 01.508.861l-5.5 3.25a.5.5 0 01-.508 0l-5.5-3.25a.5.5 0 01-.177-.684z"
+                clipRule="evenodd"
+              />
+            </svg>
+            <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
+              Inbox
+            </span>
+            <div className="flex text-gray-600 items-center bg-gray-200 rounded-md p-1">
+              <svg
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                height="1.5em"
+                width="1.5em"
+              >
+                <path d="M3.5 2A1.5 1.5 0 015 3.5V5H3.5a1.5 1.5 0 110-3zM6 5V3.5A2.5 2.5 0 103.5 6H5v4H3.5A2.5 2.5 0 106 12.5V11h4v1.5a2.5 2.5 0 102.5-2.5H11V6h1.5A2.5 2.5 0 1010 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1112.5 5H11zm0 6h1.5a1.5 1.5 0 11-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 113.5 11H5z" />
+              </svg>
+              <span>2</span>
             </div>
           </div>
         </div>
