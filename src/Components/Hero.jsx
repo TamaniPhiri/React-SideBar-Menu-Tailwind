@@ -1,6 +1,8 @@
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div>
+        Add whatever you like here!
+    </div>
   )
 }
 
